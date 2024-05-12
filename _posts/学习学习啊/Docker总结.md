@@ -1,5 +1,13 @@
 ---
-typora-copy-images-to: upload
+layout:     post
+title:      "docker 总结"
+subtitle:   "不适合人类阅读，非常水的自我笔记"
+date:       2024-05-12
+author:     "Www"
+header-img: "img/post-bg-unix-linux.jpg"
+catalog: true
+tags:
+  - 笔记
 ---
 
 # 1.Docker的安装与卸载
