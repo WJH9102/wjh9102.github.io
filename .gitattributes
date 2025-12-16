@@ -1,0 +1,9 @@
+# 告诉 GitHub 不要扫描这些文件中的敏感信息
+# 因为这些是内网使用的配置，不存在安全风险
+
+# 忽略所有笔记文件的密钥扫描
+doc/**/*.md linguist-generated=true
+
+# 或者只忽略特定文件
+# doc/语雀笔记/学习笔记/Prometheus\ Grafana\ 搭建.md linguist-generated=true
+

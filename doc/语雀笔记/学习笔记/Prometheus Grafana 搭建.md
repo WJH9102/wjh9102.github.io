@@ -114,7 +114,7 @@ drwxr-xr-x 5 root             root      265 8月   3 17:37 prometheus-2.32.1.lin
 
 ![](assets/network-asset-1688107365573-53bf279f-7dfc-4fe1-8215-0923c6fb1d78-20250107173356-nu9ex8c.png)
 
-最终生成的 token 为`glsa_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx_xxxxxxxx`（示例，请使用你自己生成的 token）
+最终生成的 token 为`glsa_18jsK51ALMvwoM7wnaevzGKSLp6UOsTm_07394f66`
 
 #### ②修改 nginx 配置
 
@@ -132,7 +132,7 @@ location /grafana/ {
   add_header Access-Control-Allow-Methods '*';
   add_header Access-Control-Allow-Credentials true;
   # 在此处添加 token 配置
-  set $auth 'Bearer YOUR_GRAFANA_TOKEN_HERE';
+  set $auth 'Bearer glsa_18jsK51ALMvwoM7wnaevzGKSLp6UOsTm_07394f66';
   
   proxy_set_header     Host $host;
   proxy_set_header     Authorization $auth;
